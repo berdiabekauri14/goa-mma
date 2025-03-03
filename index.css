@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: red;
+    color: white;
+}
+
+header a, footer a {
+    color: white;
+}
+
+header h1 {
+    text-shadow: 0px 0px 20px;
+}
+
+header h1 span {
+    text-shadow: 0px 0px 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+main div {
+    background-color: black;
+}
+
+main div img {
+    height: 400px;
+    width: 1400px;
+    border-radius: none;
+    box-shadow: none;
+}
+
+main div h1 {
+    color: white;
+    text-shadow: 0px 0px 20px;
+}
+
+main div h1 span {
+    text-shadow: 0px 0px 20px;
+}
+
+#MMA {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px;
+}
+
+span {
+    color: red;
+}
+
+header h1 u span {
+    color: rgb(162, 0, 0);
+}
+
+main div button {
+    background-color: rgba(128, 128, 128, 0.56);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 0px 0px 20px white;
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+    font-size: 29px;
+    border-radius: 180px;
+    width: 50px;
+    transition: 0.24s;
+}
+
+main div button:hover {
+    background-color: rgba(128, 128, 128, 0.387);
+}
+
+main div #previous {
+    position: relative;
+    top: 320px;
+    right: 59px;
+}
+
+main div #next {
+    position: relative;
+    bottom: 112px;
+}
+
+main img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px;
+}
+
+video {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px;
+}

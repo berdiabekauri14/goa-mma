@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./assets/img/MMA.png");
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    text-shadow: 0px 0px 20px;
+
+    position: relative;
+    bottom: 110px;
+    left: 80px;
+}
+
+form {
+    position: relative;
+    right: 70px;
+}
+
+input {
+    margin: 5px;
+    padding: 0 10px;
+    outline: none;
+
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.553);
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+
+    position: relative;
+    top: 10px;
+
+    cursor: pointer;
+
+    background-color: red;
+    color: white;
+    transition: 0.24s;
+}
+
+button:hover {
+    background-color: rgb(172, 0, 0);
+    transition: 0.24s;
+}
